@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+/*
+  Minimal global styles.
+  Tailwind was referenced by the project but the dependency is not installed in this environment.
+  Removing Tailwind directives avoids Next.js trying to load the tailwindcss PostCSS plugin.
+*/
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
